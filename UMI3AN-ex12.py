@@ -13,5 +13,5 @@ def primszam_e(n):
             return False
     return True
 
-def primszam_1001ig():
+def primszam_10001ig():
     db = 0
