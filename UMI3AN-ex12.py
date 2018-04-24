@@ -1,5 +1,5 @@
-#Berinder Erik János
-#UMI3AN
+#Berinder Erik János UMI3AN Csütörtök 10:00 HB
+#EX12
 #By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see
 #that the 6th prime is 13. What is the 10 001st prime number?
 
@@ -15,3 +15,7 @@ def primszam_e(n):
 
 def primszam_10001ig():
     db = 0
+    aktualis = 1
+    while True:
+        if primszam_e(aktualis):
+            
