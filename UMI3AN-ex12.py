@@ -9,13 +9,16 @@ def primszam_e(n):
     if n==0 or n==1:
         return False
     for i in range(2,int(math.sqrt(n)+1)):
-        if n%i == 0:
+        if n%i == 00:
             return False
     return True
 
 def primszam_10001ig():
-    db = 0
     aktualis = 1
     while True:
         if primszam_e(aktualis):
+            print(db,". prim: " aktualis)
+            if db == 100001:
+                return aktualis
+            
             
