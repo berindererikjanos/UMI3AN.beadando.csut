@@ -14,6 +14,7 @@ def primszam_e(n):
     return True
 
 def primszam_10001ig():
+    db = 0
     aktualis = 1
     while True:
         if primszam_e(aktualis):
