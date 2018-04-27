@@ -21,5 +21,9 @@ def primszam_10001ig():
             print(db,". prim: " aktualis)
             if db == 100001:
                 return aktualis
+print("-------------------------------------------------------------")
+print("A 12-es beadandó feladat eredménye a következő:  ")
+print("A keresett helyen lévő (10001.hely) prímszám: ",prim_10001())
+print("-------------------------------------------------------------")
             
             
