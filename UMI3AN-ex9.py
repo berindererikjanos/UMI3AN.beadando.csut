@@ -3,13 +3,13 @@
 #The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime
 #factor of the number 600851475143
 
-def is_prime(number):
+def is_prim(number):
 
     if number==2:
-            return 'Prime'
+            return 'Prim'
     for i in range(2,number):
         if number%i == 0:
-            return 'Not Prime'
-    return 'Prime'
+            return 'Not Prim'
+    return 'Prim'
 
 
