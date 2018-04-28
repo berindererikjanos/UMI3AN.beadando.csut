@@ -7,7 +7,7 @@ import math
 
 def primszam_e(n):
     if n==0 or n==1:    #ha n egyenlő 0 vagy 1
-        return False
+        return False     #térjen vissza hamis értékkel
     for i in range(2,int(math.sqrt(n)+1)):
         if n%i == 0:
             return False
