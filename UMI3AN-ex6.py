@@ -4,3 +4,4 @@
 #Írj egy olyan programot, amely automatikusan átalakítja az angol szöveget Morse-kódra és fordítva.
 
 def morse_code():
+  Karakterek = {}
