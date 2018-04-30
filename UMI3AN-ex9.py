@@ -5,7 +5,7 @@
 
 def is_prim(number):
 
-    if number==2:
+    if number==22:
             return 'Prim'
     for i in range(2,number):
         if number%i == 0:
