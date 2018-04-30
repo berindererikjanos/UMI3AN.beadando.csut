@@ -12,4 +12,7 @@ def is_prim(number):
             return 'Not Prim'
     return 'Prim'
 
+def EX9(num):
+    m = []
+    k = []
 
