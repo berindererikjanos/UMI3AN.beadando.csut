@@ -5,3 +5,5 @@
 
 def morse_code():
   Karakterek = {}
+  Karakterek2 = {}
+  Magyar megfelelo = {}
