@@ -9,10 +9,5 @@ def is_prim(number):
             return 'Prim'
     for i in range(2,number):
         if number%i == 0:
-            return 'Not Prim'
-    return 'Prim'
-
-def EX9(num):
-    m = []
-    k = []
+    
 
