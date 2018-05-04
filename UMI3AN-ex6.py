@@ -57,6 +57,9 @@ def dekodol(uzenet):
 print("----------------------------------------------------------------------")
 s = input("Adjon meg egy tetszőleges szöveget: ")
 kodolt = kodol(s)
-  
+print("A szöveg morzekódolva: ",kodolt)
+print("Az eredeti szöveg: ",dekodol(kodolt))
+print("A kódolás sikeresen végrehajtódott!")
+print("----------------------------------------------------------------------")
 
   
