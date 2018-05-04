@@ -51,6 +51,8 @@ def dekodol(uzenet):
     print(lista)
     uj_uzenet = ""
     for i in range(0,len(lista)-1):
+        uj_uzenet+=morze_kod_vissza[lista[i]]
+    return uj_uzenet
         
 
   
