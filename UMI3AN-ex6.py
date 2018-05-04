@@ -46,6 +46,13 @@ def kodol(uzenet):
         uj_uzenet += morze_kod[uzenet[i]]
     return uj_uzenet
 
+def dekodol(uzenet):
+    lista = uzenet.split(" ")
+    print(lista)
+    uj_uzenet = ""
+    for i in range(0,len(lista)-1):
+        
+
   
 
   
