@@ -54,7 +54,9 @@ def dekodol(uzenet):
         uj_uzenet+=morze_kod_vissza[lista[i]]
     return uj_uzenet
         
-
+print("----------------------------------------------------------------------")
+s = input("Adjon meg egy tetszőleges szöveget: ")
+kodolt = kodol(s)
   
 
   
