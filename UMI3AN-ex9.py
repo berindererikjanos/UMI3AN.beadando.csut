@@ -16,5 +16,12 @@ def prim_e(n):
     return True
 
     
-    
+def primtenyezok(n):
+    tenyezok = [] 
+    for i in range(2,int(math.sqrt(n)+1)):
+        while prim_e(i) and n%i == 0:
+            tenyezok.append(i) 
+            n = n // i 
+            if n == 1: 
+                return tenyezok
 
