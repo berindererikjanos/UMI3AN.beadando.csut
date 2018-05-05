@@ -25,3 +25,5 @@ def primtenyezok(n):
             if n == 1: 
                 return tenyezok
 
+n = 600851475143
+lista = primtenyezok(n)
