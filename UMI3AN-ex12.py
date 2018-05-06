@@ -4,6 +4,7 @@
 #that the 6th prime is 13. What is the 10 001st prime number?
 #Prímszámos feladat: Melyik a 10001. helyen szereplő prímszám?
 
+
 import math
 
 def primszam_e(n):
