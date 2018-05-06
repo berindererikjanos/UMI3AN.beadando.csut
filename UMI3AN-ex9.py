@@ -5,7 +5,6 @@
 
 import math
 
-
 def prim_e(n):
     if n == 0 or n == 1:
         return False
