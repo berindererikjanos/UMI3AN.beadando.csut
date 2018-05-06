@@ -3,6 +3,7 @@
 #Write a program that automatically converts English text to Morse code and vice versa.
 #Írj egy olyan programot, amely automatikusan átalakítja az angol szöveget Morse-kódra és fordítva.
 
+
 morze_kod =    {'A': '.- ', 'B': '-... ', 'C': '-.-. ',
     'D': '-.. ', 'E': '. ', 'F': '..-. ',
     'G': '--. ', 'H': '.... ', 'I': '.. ',
