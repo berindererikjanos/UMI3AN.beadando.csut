@@ -7,7 +7,7 @@
 
 import math
 
-def primszam_e(n):
+def prim_e(n):
     if n==0 or n==1:    
         return False     
     for i in range(2,int(math.sqrt(n)+1)):
@@ -15,14 +15,17 @@ def primszam_e(n):
             return False
     return True
 
-def primszam_10001ig():
+def prim_10001():
     db = 0
     aktualis = 1
     while True:
         if primszam_e(aktualis):
-            print(db,". prim: " aktualis)
-            if db == 100001:
+            if db == 10001:
                 return aktualis
+            else:
+                db+=1
+        
+        aktualis +=1
 print("-------------------------------------------------------------")
 print("A 12-es beadandó feladat eredménye a következő:  ")
 print("A keresett helyen lévő (10001.helyi) prímszám: ",prim_10001())
