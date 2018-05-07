@@ -8,10 +8,10 @@
 import math
 
 def prim_e(n):
-    if n==0 or n==1:    
-        return False     
+    if n==0 or n==1:
+        return False
     for i in range(2,int(math.sqrt(n)+1)):
-        if n%i == 0:
+        if n%i==0:
             return False
     return True
 
@@ -19,16 +19,16 @@ def prim_10001():
     db = 0
     aktualis = 1
     while True:
-        if primszam_e(aktualis):
+        if prim_e(aktualis):
+            #print(db,". prim: ",aktualis)
             if db == 10001:
                 return aktualis
             else:
                 db+=1
-        
-        aktualis +=1
+
+        aktualis+=1
 print("-------------------------------------------------------------")
 print("A 12-es beadandó feladat eredménye a következő:  ")
 print("A keresett helyen lévő (10001.helyi) prímszám: ",prim_10001())
 print("-------------------------------------------------------------")
-            
             
