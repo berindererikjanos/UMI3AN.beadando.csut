@@ -27,6 +27,6 @@ n = 600851475143
 lista = primtenyezok(n)
 print("----------------------------------------")
 print("A megadott szám összes prímtényezője: ",lista)
-print("A legnagyobb prímtényező: ",max(lista))
-print("Sikeres!")
+print("A megadott szám legnagyobb prímtényezője: ",max(lista))
+print("A program sikeresen lefutott!")
 print("----------------------------------------")
