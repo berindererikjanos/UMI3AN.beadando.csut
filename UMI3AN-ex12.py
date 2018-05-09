@@ -38,4 +38,14 @@ print("A program sikeresen lefutott!")
 print("-------------------------------------------------------------")
 
 #Beadandófeladatvége
+
+
+#Példa
+#1. lépés: aktualis = 1: 1 prím? -> nem akkor aktualis = 2
+#2. lépés: aktualis = 2: 2 prím? -> igen és db == 10001 ? -->nem akkor db = 1 és aktualis = 3
+#3. lépés: aktualis = 3: 3 prím? -> igen és db == 10001 ? -->nem akkor db = 2 és aktualis = 4
+#4. lépés : aktualis = 4: 4 prím? -> nem és db ==10001? --> nem akkor db = 2 és aktualis = 5
+#5. lépés : aktuális = 5 : 5 prím? -> igen és db == 10001 --> nem akkor db= 3 és aktualis = 6
+#....
+#10001. lépés: aktualis = 104759: 104759 prím? -> igen és db = 104759 ? -> igen akkor vége
             
