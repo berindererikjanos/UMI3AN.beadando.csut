@@ -34,6 +34,6 @@ def prim_10001():
 print("-------------------------------------------------------------")
 print("A 12-es beadandó feladat eredménye a következő:  ")
 print("A keresett helyen lévő (10001.helyi) prímszám: ",prim_10001())
-print("Sikeres!")
+print("A program sikeresen lefutott!")
 print("-------------------------------------------------------------")
             
