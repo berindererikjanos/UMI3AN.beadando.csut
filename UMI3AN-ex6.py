@@ -67,3 +67,15 @@ print("A kódolás sikeresen végrehajtódott!")
 print("----------------------------------------------------------------------")
 
 #Beadandófeladatvége
+
+# Példa: üzenet = "AB"
+        # 1. lépés: i = 0
+        # uj_uzenet = "" + morze_kod[uzenet[0]]
+        # uj_uzenet = "" + morze_kod['A']
+        # uj_uzenet = "" + ".- "
+        # 2. lépés: i = 1
+        # uj_uzenet = ".- " + morze_kod[uzenet[1]]
+        # uj_uzenet = ".- " + morze_kod['B']
+        # uj_uzenet = ".- " + "-... "
+        #
+        # return ".- -...."
