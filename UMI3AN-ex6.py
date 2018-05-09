@@ -3,7 +3,7 @@
 #Write a program that automatically converts English text to Morse code and vice versa.
 #Írj egy olyan programot, amely automatikusan átalakítja az angol szöveget Morse-kódra és fordítva.
 
-
+#első szótár
 morze_kod =    {'A': '.- ', 'B': '-... ', 'C': '-.-. ',
     'D': '-.. ', 'E': '. ', 'F': '..-. ',
     'G': '--. ', 'H': '.... ', 'I': '.. ',
@@ -22,6 +22,7 @@ morze_kod =    {'A': '.- ', 'B': '-... ', 'C': '-.-. ',
     ' ': '....... '
     }
 
+#második szótár
 morze_kod_vissza =    {'.-': 'A', '-...': 'B', '-.-.': 'C',
     '-..': 'D', '.': 'E', '..-.': 'F',
     '--.': 'G', '....': 'H', '..': 'I',
@@ -41,12 +42,14 @@ morze_kod_vissza =    {'.-': 'A', '-...': 'B', '-.-.': 'C',
 
     }
 
+#első függvény
 def kodol(uzenet):
     uj_uzenet = ""
     for i in range(0,len(uzenet)):
         uj_uzenet += morze_kod[uzenet[i]]
     return uj_uzenet
 
+#második függvény
 def dekodol(uzenet):
     lista = uzenet.split(" ")
     print(lista)
@@ -63,4 +66,4 @@ print("Az eredeti szöveg: ",dekodol(kodolt))
 print("A kódolás sikeresen végrehajtódott!")
 print("----------------------------------------------------------------------")
 
-  
+#Beadandófeladatvége
