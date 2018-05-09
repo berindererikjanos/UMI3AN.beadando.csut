@@ -19,7 +19,7 @@ def prim_e(n):
 
 #második függvény
 def prim_10001():
-    db = 0
+    db = 0  #sorsz
     aktualis = 1
     while True:
         if prim_e(aktualis):
