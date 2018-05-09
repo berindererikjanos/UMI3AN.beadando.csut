@@ -26,7 +26,7 @@ def primtenyezok(n):
 n = 600851475143
 lista = primtenyezok(n)
 print("----------------------------------------")
-print("Az összes prímtényező: ",lista)
+print("A megadott szám összes prímtényezője: ",lista)
 print("A legnagyobb prímtényező: ",max(lista))
 print("Sikeres!")
 print("----------------------------------------")
