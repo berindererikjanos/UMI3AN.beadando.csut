@@ -5,6 +5,7 @@
 
 import math
 
+#első függvény
 def prim_e(n):
     if n == 0 or n == 1:
         return False
@@ -13,7 +14,8 @@ def prim_e(n):
             return False
     return True
 
-    
+
+#második függvény   
 def primtenyezok(n):
     tenyezok = [] 
     for i in range(2,int(math.sqrt(n)+1)):
@@ -30,3 +32,5 @@ print("A megadott szám összes prímtényezője: ",lista)
 print("A megadott szám legnagyobb prímtényezője: ",max(lista))
 print("A program sikeresen lefutott!")
 print("----------------------------------------")
+
+#Beadandófeladatvége
