@@ -17,7 +17,7 @@ def prim_e(n):
     return True
 
 
-
+#második függvény
 def prim_10001():
     db = 0
     aktualis = 1
