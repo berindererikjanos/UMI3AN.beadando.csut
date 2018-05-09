@@ -43,7 +43,7 @@ morze_kod_vissza =    {'.-': 'A', '-...': 'B', '-.-.': 'C',
 
 def kodol(uzenet):
     uj_uzenet = ""
-    for i in range(0,len(uzenet))
+    for i in range(0,len(uzenet)):
         uj_uzenet += morze_kod[uzenet[i]]
     return uj_uzenet
 
