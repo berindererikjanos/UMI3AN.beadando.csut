@@ -7,6 +7,7 @@
 
 import math
 
+#első függvény
 def prim_e(n):
     if n==0 or n==1:
         return False
@@ -14,6 +15,8 @@ def prim_e(n):
         if n%i==0:
             return False
     return True
+
+
 
 def prim_10001():
     db = 0
@@ -27,6 +30,7 @@ def prim_10001():
                 db+=1
 
         aktualis+=1
+
 print("-------------------------------------------------------------")
 print("A 12-es beadandó feladat eredménye a következő:  ")
 print("A keresett helyen lévő (10001.helyi) prímszám: ",prim_10001())
