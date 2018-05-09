@@ -11,7 +11,7 @@ import math
 def prim_e(n):
     if n==0 or n==1:
         return False
-    for i in range(2,int(math.sqrt(n)+1)):
+    for i in range(2,int(math.sqrt(n)+1)): #példa a 1001
         if n%i==0:
             return False
     return True
@@ -24,7 +24,7 @@ def prim_10001():
     while True:
         if prim_e(aktualis):
             #print(db,". prim: ",aktualis)
-            if db == 10001:
+            if db == 10001:  #ide azt a számot írom, ahanyadik helyen lévő prímszámot keresem
                 return aktualis
             else:
                 db+=1
